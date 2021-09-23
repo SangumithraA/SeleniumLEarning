@@ -1,21 +1,19 @@
-package org.system;
+package week3.Assignments;
 
-public class Desktop extends Computer{
-	
-	public void desktopSize() {
-		
-		System.out.println("I'm here to display the size of the desktop");
-	}
-
+public class Desktop implements Software{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+	}
+
+	public void hardwareResources() {
+		System.out.println("Implemented from Software interface");
 		
-		Desktop d = new Desktop();
-		
-		d.computerModel();
-		d.desktopSize();
-		
+	}
+
+	public void softwareResources() {
+		System.out.println("Implemented from Software interface");
 		
 	}
 
